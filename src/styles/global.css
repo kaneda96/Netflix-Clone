@@ -1,0 +1,29 @@
+:root {
+  --background: #141414;
+  --button: #333;
+  --overview-color: #999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: white;
+  font: 24px 'Roboto';
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
