@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
+import './assets/style.css'
+import './styles/global.css'
 import { getHomeList, getMovieDetails } from './Database/tmdb'
 import MovieRow from './components/MovieRow'
-import './styles/global.css'
 import Header from './components/Header'
-import FeatureMovie from './components/FeatureMove'
+import FeatureMovie from './components/FeatureMovie'
 
 type MovieList = {
   slug: string

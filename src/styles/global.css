@@ -14,10 +14,22 @@ body {
   background-color: var(--background);
   color: white;
   font: 24px 'Roboto';
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+
+p,
+a {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 20px;
 }
 
 a:visited {

@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
+  height: 55vh;
+
 `
 
 interface BackgroundProps {
@@ -11,10 +12,9 @@ interface BackgroundProps {
 
 export const Background = styled.div<BackgroundProps>`
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-size: cover;
-  background-position: left;
   background-image: linear-gradient(
       90deg,
       var(--background) 20%,
@@ -28,13 +28,12 @@ export const Background = styled.div<BackgroundProps>`
 export const Content = styled.section`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-start;
-  height: inherit;
-  width: 30%;
-  padding-left: 60px;
+  
+  
 
-  font-size: 20px;
+  padding-left: 60px;
 
   h1 {
     font-size: 60px;
@@ -73,7 +72,7 @@ export const Buttons = styled.div`
     border-radius: 5px;
     display: flex;
     align-items: center;
-    padding: 15px 25px;
+    padding: 0.5rem 2.5rem;
 
     i {
       margin-right: 2px;

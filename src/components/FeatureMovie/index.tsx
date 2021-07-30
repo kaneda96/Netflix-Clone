@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { backgroundUrl } from '../../Database/tmdb'
 import {
   Container,
@@ -27,15 +26,9 @@ export default function FeatureMovie({ featuredMovie }: IFeatureMovieProps) {
 
   const airDate = new Date(first_air_date)
 
-  useEffect(() => {
-    console.log(featuredMovie)
-  }, [])
-
   return (
     <Container>
-      <Background backgroundPath={backgroundUrl(backdrop_path)}>
-        {''}
-      </Background>
+      <Background backgroundPath={backgroundUrl(backdrop_path)}></Background>
       <Content>
         <h1>{name}</h1>
         <Subtitle>
