@@ -23,15 +23,6 @@ a {
   white-space: nowrap;
 }
 
-p,
-a {
-  font-size: 14px;
-}
-
-h1 {
-  font-size: 20px;
-}
-
 a:visited {
   color: white;
 }

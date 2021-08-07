@@ -35,10 +35,13 @@ export const MenuContainer = styled.div`
 
 export const LogoLink = styled.a``
 
+export const MobileList = styled.select``
+
 export const Logo = styled.img`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 1rem;
 
   max-width: 100px;
   max-height: 96px;

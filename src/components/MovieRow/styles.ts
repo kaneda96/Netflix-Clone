@@ -1,14 +1,13 @@
-import { Children } from 'react'
 import styled from 'styled-components'
 
 export const Row = styled.section`
   //overflow-x: hidden;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding-left: 60px;
 `
 
 export const Title = styled.h2`
-  font-size: 1.4vw;
   margin-bottom: 0.25rem;
 `
 

@@ -2,8 +2,6 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
-  height: 55vh;
-
 `
 
 interface BackgroundProps {
@@ -27,20 +25,16 @@ export const Background = styled.div<BackgroundProps>`
 
 export const Content = styled.section`
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  
-  
-
+  width: 30vw;
   padding-left: 60px;
-
-  h1 {
-    font-size: 60px;
-  }
 `
 
-export const Title = styled.div``
+export const ContentInfo = styled.div`
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding-top: 9vh;
+`
 
 export const Subtitle = styled.div`
   margin-top: 1rem;
@@ -64,7 +58,7 @@ export const Overview = styled.div`
 
 export const Buttons = styled.div`
   margin-top: 1rem;
-  display: grid;
+  display: flex;
   grid-auto-flow: column;
 
   a {
@@ -100,6 +94,6 @@ export const Gender = styled.div`
   margin-top: 1rem;
   p {
     opacity: 0.5;
-    font-size: 18px;
+    /* font-size: 18px; */
   }
 `
