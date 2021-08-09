@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?z5yvu4');
-  src:  url('fonts/icomoon.eot?z5yvu4#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?z5yvu4') format('truetype'),
-    url('fonts/icomoon.woff?z5yvu4') format('woff'),
-    url('fonts/icomoon.svg?z5yvu4#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?kyupna');
+  src:  url('fonts/icomoon.eot?kyupna#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kyupna') format('truetype'),
+    url('fonts/icomoon.woff?kyupna') format('woff'),
+    url('fonts/icomoon.svg?kyupna#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-netflix:before {
+  content: "\e904";
+  color: #e50914;
+}
 .icon-play:before {
   content: "\e900";
 }

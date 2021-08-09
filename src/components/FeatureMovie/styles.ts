@@ -34,6 +34,14 @@ export const ContentInfo = styled.div`
   position: relative;
   flex-direction: column;
   padding-top: 9vh;
+
+  p {
+    font-size: 1.4vw;
+  }
+
+  h1 {
+    font-size: 1.8vw;
+  }
 `
 
 export const Subtitle = styled.div`
@@ -67,7 +75,9 @@ export const Buttons = styled.div`
     display: flex;
     align-items: center;
     padding: 0.5rem 2.5rem;
-
+    font-size: 1.6vw;
+    font-weight: bold;
+    line-height: 2.4vw;
     i {
       margin-right: 2px;
     }

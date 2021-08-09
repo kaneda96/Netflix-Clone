@@ -9,6 +9,8 @@ export const Row = styled.section`
 
 export const Title = styled.h2`
   margin-bottom: 0.25rem;
+  font-size: 1.4vw;
+  line-height: 1.25vw;
 `
 
 export const RowContent = styled.div``
@@ -24,9 +26,10 @@ export const Items = styled.div<ItemsProps>`
   transition: 0.5s;
 `
 
-export const Item = styled.div`
+export const Item = styled.a`
   display: inline-flex;
   width: 150px;
+
   img {
     border-radius: 5px;
   }

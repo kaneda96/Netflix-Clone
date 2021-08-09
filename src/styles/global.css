@@ -18,6 +18,7 @@ body {
 }
 
 a {
+  color: white;
   text-decoration: none;
   word-wrap: break-word;
   white-space: nowrap;
